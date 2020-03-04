@@ -1,0 +1,4 @@
+io\wilson\message\service\BaseMessageService.class
+io\wilson\message\listener\SmsListener.class
+io\wilson\message\domain\MessageLog.class
+io\wilson\message\MessageApplication.class

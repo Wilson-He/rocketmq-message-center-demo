@@ -1,0 +1,7 @@
+io\wilson\common\message\BaseMessage.class
+io\wilson\common\message\constant\MessageConstant$System.class
+io\wilson\common\message\constant\MessageConstant$Consumer.class
+io\wilson\common\message\SmsMessage.class
+io\wilson\common\message\constant\MessageConstant$Producer.class
+io\wilson\common\message\constant\MessageConstant$Topic.class
+io\wilson\common\message\constant\MessageConstant.class

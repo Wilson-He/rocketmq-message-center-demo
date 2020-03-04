@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/Wilson-He/spring-boot-series.git
+          username: Wilson-He
+          force-pull: true
+          password:
+          # 配置文件在uri下的目录
+          search-paths: /config-server-properties
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka
