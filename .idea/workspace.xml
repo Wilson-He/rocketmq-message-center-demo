@@ -4,51 +4,8 @@
     <bookmark url="jar://E:/.m2/repository/org/apache/rocketmq/rocketmq-client/4.5.2/rocketmq-client-4.5.2-sources.jar!/org/apache/rocketmq/client/consumer/listener/MessageListenerConcurrently.java" line="22" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="008da00a-392d-4fd6-94d7-f16bd7153ab9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/exception/MQConsumeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/listener/AbstractListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-center/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-center/src/test/java/io/wilson/message/SmsSendTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/question-app/src/main/java/io/wilson/question/QuestionApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/question-app/src/main/java/io/wilson/question/controller/QuestionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/question-app/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/question-app/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/219c501d6e83bde592e3348b1f43f4686a596446" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/1/219c501d6e83bde592e3348b1f43f4686a596446" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a9ec148f53cd3c15dc9ddbae52e2482767e8470" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5a9ec148f53cd3c15dc9ddbae52e2482767e8470" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/825d8db36c1321a1e5ecf4aca0997ee585e9353d" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/825d8db36c1321a1e5ecf4aca0997ee585e9353d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="008da00a-392d-4fd6-94d7-f16bd7153ab9" name="Default Changelist" comment="补充gitignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/BaseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/BaseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/SmsMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/SmsMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/constant/MessageConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/constant/MessageConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/BaseMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/BaseMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/SmsMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/SmsMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/constant/MessageConstant$Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/constant/MessageConstant$Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/constant/MessageConstant$Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/constant/MessageConstant$Producer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/constant/MessageConstant$System.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/constant/MessageConstant$System.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/constant/MessageConstant$Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/constant/MessageConstant$Topic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/constant/MessageConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/constant/MessageConstant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/MessageApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/MessageCenterApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/domain/MessageLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/domain/MessageLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/listener/SmsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/listener/SmsListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/AbstractMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/AbstractMessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/BaseMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/BaseMessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/SmsMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/SmsMessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/impl/SmsMessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/impl/SmsMessageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/target/classes/io/wilson/message/MessageApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/target/classes/io/wilson/message/domain/MessageLog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/target/classes/io/wilson/message/listener/SmsListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/target/classes/io/wilson/message/service/BaseMessageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/question-app/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,56 +45,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/listener/SmsListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+            <state relative-caret-position="172">
+              <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1808#1809#0" expanded="true" />
                 <element signature="e#1868#1869#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/exception/MQConsumeException.java">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/constant/MessageConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/.m2/repository/io/github/wilson-he/spring-boot-common/0.0.6/spring-boot-common-0.0.6-sources.jar!/io/springframework/common/exception/AppException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://E:/.m2/repository/io/github/wilson-he/spring-boot-common/0.0.5/spring-boot-common-0.0.5-sources.jar!/io/springframework/common/exception/AppException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="140">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -253,7 +185,6 @@
         <option value="$PROJECT_DIR$/question-app/pom.xml" />
         <option value="$PROJECT_DIR$/question-app/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/question-app/src/main/java/io/wilson/question/controller/QuestionController.java" />
-        <option value="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/constant/MessageConstant.java" />
         <option value="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/BaseMessageService.java" />
         <option value="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/SmsMessageService.java" />
         <option value="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/impl/SmsMessageServiceImpl.java" />
@@ -263,6 +194,7 @@
         <option value="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/listener/SmsListener.java" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
         <option value="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/exception/MQConsumeException.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/constant/MessageConstant.java" />
       </list>
     </option>
   </component>
@@ -344,133 +276,6 @@
             </path>
             <path>
               <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="message-center" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="message-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="message-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="message-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="message-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="message-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="message-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="message-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="message" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-              <item name="SmsListener" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="message-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="question-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="question-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="question-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="question-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="question-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="question-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="question" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="question-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -485,6 +290,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last.edited.regexp" value="{@code" />
@@ -504,10 +310,10 @@
       <recent name="io.wilson.eureka" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IntelliJ\workspace\rocket-mq-demo" />
       <recent name="E:\IntelliJ\workspace\rocket-mq-demo\question-app\src\main\resources" />
       <recent name="E:\IntelliJ\workspace\rocket-mq-demo\eureka-app\src\main\resources" />
       <recent name="E:\IntelliJ\workspace\rocket-mq-demo\config-server\src\main\resources" />
-      <recent name="E:\IntelliJ\workspace\rocket-mq-demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -644,8 +450,16 @@
       <workItem from="1583281977193" duration="5848000" />
       <workItem from="1583289866215" duration="10319000" />
       <workItem from="1583309325876" duration="4443000" />
-      <workItem from="1583369858497" duration="15910000" />
+      <workItem from="1583369858497" duration="16164000" />
     </task>
+    <task id="LOCAL-00001" summary="补充gitignore">
+      <created>1583397874207</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583397874207</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -666,7 +480,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182665000" />
+    <option name="totallyTimeSpent" value="182919000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -679,9 +493,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965157" visible="true" weight="0.26772615" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4965157" visible="true" weight="0.26772615" />
       <window_info id="Structure" order="1" sideWeight="0.5034843" side_tool="true" weight="0.23960881" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -691,7 +504,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275463" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987775" weight="0.41319445" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49938875" visible="true" weight="0.30092594" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49938875" visible="true" weight="0.30092594" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32794458" />
@@ -709,7 +522,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="18" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24938875" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.3074572" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.3074572" />
       <window_info anchor="right" id="Maven" order="3" weight="0.23410758" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Mongo Explorer" order="5" weight="0.43459657" />
@@ -723,6 +536,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="补充gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -759,13 +576,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/message-center/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/message-center/src/test/java/io/wilson/message/SmsSendTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1021,13 +831,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/constant/MessageConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/.m2/repository/org/apache/rocketmq/rocketmq-common/4.5.2/rocketmq-common-4.5.2-sources.jar!/org/apache/rocketmq/common/protocol/ResponseCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1173,24 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/listener/SmsListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1868#1869#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/io/github/wilson-he/spring-boot-common/0.0.6/spring-boot-common-0.0.6-sources.jar!/io/springframework/common/exception/AppException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/exception/MQConsumeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -1202,6 +987,39 @@
             <element signature="e#366#367#0" expanded="true" />
             <element signature="e#402#403#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/.m2/repository/io/github/wilson-he/spring-boot-common/0.0.6/spring-boot-common-0.0.6-sources.jar!/io/springframework/common/exception/AppException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/listener/SmsListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1808#1809#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/constant/MessageConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
