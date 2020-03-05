@@ -23,18 +23,23 @@ public class SmsMessageServiceImpl extends AbstractMessageService<SmsMessage> im
     private MongoTemplate mongoTemplate;
 
     @Override
-    public void send(SmsMessage smsMessage) {
+    public boolean send(SmsMessage smsMessage) {
         if (isConsumed(smsMessage)) {
-            return;
+            return true;
         }
+        // 短信业务操作结果
+        boolean isSuccess = true;
         /*
-         * 业务操作
+         * 短信业务操作
          * ...
          * 操作完成后进行消息记录
          */
-        MessageLog messageLog = MessageLog.build(smsMessage.getMsgId(), JSONObject.toJSONString(smsMessage), smsMessage.getSystem());
+        MessageLog messageLog = MessageLog.build(smsMessage.getMsgId(), JSONObject.toJSONString(smsMessage), smsMessage.getSystem())
+                .setConsumed(isSuccess);
+        // 消息发送记录
         mongoTemplate.insert(messageLog, collection());
-        log.info("短信消息发送成功：{}", smsMessage);
+        log.info("短信发送成功：{}", smsMessage);
+        return isSuccess;
     }
 
     @Override

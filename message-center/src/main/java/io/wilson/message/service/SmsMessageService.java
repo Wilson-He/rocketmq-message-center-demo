@@ -8,8 +8,14 @@ import org.springframework.stereotype.Service;
  * @since 2020/3/2
  **/
 @Service
-public interface SmsMessageService extends BaseMessageService<SmsMessage>{
+public interface SmsMessageService extends BaseMessageService<SmsMessage> {
 
-    void send(SmsMessage smsMessage);
+    /**
+     * 发送短信消息
+     *
+     * @param smsMessage
+     * @return 发送结果
+     */
+    boolean send(SmsMessage smsMessage);
 
 }

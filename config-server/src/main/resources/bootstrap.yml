@@ -3,7 +3,7 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/Wilson-He/spring-boot-series.git
+          uri: https://gitee.com/Wilson-He/rocketmq-message-center-demo.git
           username: Wilson-He
           force-pull: true
           password:

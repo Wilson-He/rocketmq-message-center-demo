@@ -15,7 +15,11 @@
         <dependency>
             <groupId>io.github.wilson-he</groupId>
             <artifactId>spring-boot-common</artifactId>
-            <version>0.0.4</version>
+            <version>0.0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
         </dependency>
     </dependencies>
 </project>

@@ -1,4 +1,4 @@
-package io.wilson.message.service;
+package io.wilson.message.listener;
 
 import io.wilson.common.message.BaseMessage;
 import lombok.extern.slf4j.Slf4j;
@@ -10,25 +10,26 @@ import javax.annotation.Resource;
 
 /**
  * @author Wilson
- * @since 2020/3/2
+ * @since 2020/3/5
  **/
 @Slf4j
-public abstract class AbstractMessageService<T extends BaseMessage> {
+public abstract class AbstractListener<T extends BaseMessage> {
+
     @Resource
     private MongoTemplate mongoTemplate;
 
     /**
      * 判断消息是否已被消费
      *
-     * @param message
+     * @param msgId
      * @return
      */
-    protected boolean isConsumed(T message) {
-        long count = mongoTemplate.count(new Query(Criteria.where("msg_id").is(message.getMsgId()))
+    protected boolean isConsumed(String msgId) {
+        long count = mongoTemplate.count(new Query(Criteria.where("msg_id").is(msgId))
                         .addCriteria(Criteria.where("consumed").is(true))
                 , collection());
         if (count > 0) {
-            log.info("消息{}已成功消费过，请勿重复投递!", message.getMsgId());
+            log.info("消息{}已成功消费过，请勿重复投递!", msgId);
             return true;
         }
         return false;

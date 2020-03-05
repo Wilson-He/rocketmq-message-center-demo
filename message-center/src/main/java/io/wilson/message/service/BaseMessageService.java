@@ -2,7 +2,9 @@ package io.wilson.message.service;
 
 import io.wilson.common.message.BaseMessage;
 
+import java.util.function.BiFunction;
 import java.util.function.Consumer;
+import java.util.function.Function;
 
 /**
  * @author Wilson
@@ -16,7 +18,7 @@ public interface BaseMessageService<T extends BaseMessage> {
      * @param message         消息
      * @param consumeFunction 消费方法
      */
-    default void consume(T message, Consumer<T> consumeFunction) {
-        consumeFunction.accept(message);
+    default boolean consume(T message, Function<T, Boolean> consumeFunction) {
+        return consumeFunction.apply(message);
     }
 }

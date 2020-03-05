@@ -21,7 +21,7 @@ public class MessageLog {
     private String system;
     private String msgContent;
     /**
-     * 是否已消费
+     * 是否已消费，消费失败的情况：消费者接收到消息，业务执行失败
      */
     private Boolean consumed;
     private LocalDateTime createTime;
@@ -38,6 +38,7 @@ public class MessageLog {
     public static MessageLog build(String msgId, String messageJson, String system) {
         LocalDateTime now = LocalDateTime.now();
         return new MessageLog()
+                .setMsgId(msgId)
                 .setSystem(system)
                 .setMsgContent(messageJson)
                 .setConsumed(false)

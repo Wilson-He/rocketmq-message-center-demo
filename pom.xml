@@ -16,6 +16,11 @@
         <module>eureka-app</module>
     </modules>
 
+    <properties>
+        <rockemq-spring.version>2.0.4</rockemq-spring.version>
+        <spring-cloud.version>Hoxton.SR2</spring-cloud.version>
+    </properties>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -35,7 +40,14 @@
             <dependency>
                 <groupId>org.apache.rocketmq</groupId>
                 <artifactId>rocketmq-spring-boot-starter</artifactId>
-                <version>2.0.4</version>
+                <version>${rockemq-spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
             </dependency>
         </dependencies>
     </dependencyManagement>

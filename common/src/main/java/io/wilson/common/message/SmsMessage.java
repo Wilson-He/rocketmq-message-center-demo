@@ -2,6 +2,8 @@ package io.wilson.common.message;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.ToString;
+import lombok.experimental.Accessors;
 
 /**
  * @author Wilson
@@ -9,6 +11,8 @@ import lombok.EqualsAndHashCode;
  **/
 @EqualsAndHashCode(callSuper = true)
 @Data
+@Accessors(chain = true)
+@ToString(callSuper = true)
 public class SmsMessage extends BaseMessage {
     private static final String COLLECTION = "sms_message";
 
@@ -17,7 +21,11 @@ public class SmsMessage extends BaseMessage {
      */
     private String system;
     /**
-     * 接收用户
+     * 短信创建用户
+     */
+    private String createUserId;
+    /**
+     * 接收短信用户
      */
     private String toUserId;
     /**

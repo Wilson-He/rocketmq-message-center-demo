@@ -1,0 +1,7 @@
+rocketmq:
+  producer:
+    group: question-group
+  name-server: 127.0.0.1:9876
+server:
+  servlet:
+    context-path: /question
