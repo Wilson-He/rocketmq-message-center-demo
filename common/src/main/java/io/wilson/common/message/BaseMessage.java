@@ -13,7 +13,7 @@ import java.io.Serializable;
 @Accessors(chain = true)
 public abstract class BaseMessage implements Serializable {
     /**
-     * 消息id
+     * 消息源系统:{@link io.wilson.common.message.constant.MessageConstant.System}
      */
-    protected String msgId;
+    private String system;
 }

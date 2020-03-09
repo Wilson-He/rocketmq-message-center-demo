@@ -14,12 +14,7 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 @ToString(callSuper = true)
 public class SmsMessage extends BaseMessage {
-    private static final String COLLECTION = "sms_message";
 
-    /**
-     * 消息源系统:{@link io.wilson.common.message.constant.MessageConstant.System}
-     */
-    private String system;
     /**
      * 短信创建用户
      */

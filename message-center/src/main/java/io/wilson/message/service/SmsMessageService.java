@@ -11,11 +11,11 @@ import org.springframework.stereotype.Service;
 public interface SmsMessageService extends BaseMessageService<SmsMessage> {
 
     /**
-     * 发送短信消息
+     * 发送单条短信消息
      *
      * @param smsMessage
-     * @return 发送结果
+     * @return 业务处理结果
      */
-    boolean send(SmsMessage smsMessage);
+    boolean sendSingle(SmsMessage smsMessage);
 
 }

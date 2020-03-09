@@ -17,12 +17,8 @@ Nmessage-center/src/main/java/io/wilson/message/service/BaseMessageService.java
 Vmessage-center/src/main/java/io/wilson/message/service/impl/SmsMessageServiceImpl.java,2\1\219c501d6e83bde592e3348b1f43f4686a596446
 †
 Vmessage-center/src/main/java/io/wilson/message/domain/constant/MessageLogConstant.java,6\c\6cf934e237a27d7b64d8b76f95128df44764e903
-‚
-Rmessage-center/src/main/java/io/wilson/message/service/AbstractMessageService.java,b\e\be7a46f08369794b51bcd76ea73280b2507b7aa6
 D
 question-app/pom.xml,7\8\78b0e560805c9f4eea63806fc576b971f380abd2
-x
-Hmessage-center/src/main/java/io/wilson/message/listener/SmsListener.java,a\1\a1395d3395bd59dfb148a82ad11a8d7cf7593115
 B
 eureka-app/pom.xml,2\8\28763541308ddf7728301911df441b2ae8844b41
 E

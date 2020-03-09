@@ -1,8 +1,10 @@
 package io.wilson.message.domain;
 
+import io.wilson.common.message.BaseMessage;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
 /**
@@ -13,35 +15,34 @@ import java.time.LocalDateTime;
  **/
 @Data
 @Accessors(chain = true)
-public class MessageLog {
+public class MessageLog implements Serializable {
     private String msgId;
     /**
      * 发送方系统名称 {@link io.wilson.common.message.constant.MessageConstant}
      */
     private String system;
+    /**
+     * 消息对象json字符串
+     */
     private String msgContent;
     /**
-     * 是否已消费，消费失败的情况：消费者接收到消息，业务执行失败
+     * 业务执行结果
      */
-    private Boolean consumed;
+    private Boolean success;
     private LocalDateTime createTime;
     private LocalDateTime updateTime;
 
     /**
      * 初始化消息记录
      *
-     * @param msgId       消息id
-     * @param messageJson 消息对象json
-     * @param system      消息源系统
+     * @param message       消息
      * @return
      */
-    public static MessageLog build(String msgId, String messageJson, String system) {
+    public static <T extends BaseMessage> MessageLog convertFromMessage(T message) {
         LocalDateTime now = LocalDateTime.now();
         return new MessageLog()
-                .setMsgId(msgId)
-                .setSystem(system)
-                .setMsgContent(messageJson)
-                .setConsumed(false)
+                .setSystem(message.getSystem())
+                .setSuccess(false)
                 .setCreateTime(now)
                 .setUpdateTime(now);
     }

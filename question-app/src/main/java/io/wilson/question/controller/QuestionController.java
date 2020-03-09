@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.messaging.support.MessageBuilder;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
@@ -25,13 +26,13 @@ public class QuestionController {
     @Value(MessageConstant.Topic.SMS_TOPIC_TEMPLATE)
     private String smsTopic;
 
-    @GetMapping("/sendQuestion")
-    public ServerResponse sendQuestion() {
+    @GetMapping("/toUser")
+    public ServerResponse sendQuestion(@RequestParam String userId) {
         rocketMQTemplate.send(smsTopic, MessageBuilder.withPayload(new SmsMessage()
-                .setSystem(MessageConstant.System.QUESTION)
                 .setMobile("1833912333")
                 .setContent("这是一条来自question系统的信息")
-                .setToUserId("12121"))
+                .setToUserId(userId)
+                .setSystem(MessageConstant.System.QUESTION))
                 .build());
         return ServerResponse.success();
     }

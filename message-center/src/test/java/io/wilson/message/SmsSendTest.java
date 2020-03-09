@@ -27,10 +27,10 @@ public class SmsSendTest {
     @Test
     public void sendSms() {
         SmsMessage smsMessage = new SmsMessage();
-        smsMessage.setSystem(MessageConstant.System.PRODUCT)
+        smsMessage.setToUserId("13211")
+                .setMobile("173333222")
                 .setContent("测试短信消息")
-                .setToUserId("13211")
-                .setMobile("173333222");
+                .setSystem(MessageConstant.System.QUESTION);
         rocketMQTemplate.send(smsTopic, MessageBuilder.withPayload(smsMessage).build());
     }
 }

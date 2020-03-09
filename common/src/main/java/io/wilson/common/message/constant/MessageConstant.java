@@ -7,7 +7,6 @@ package io.wilson.common.message.constant;
 public interface MessageConstant {
 
     interface System {
-        String PRODUCT = "PRODUCT";
         String QUESTION = "QUESTION";
     }
 

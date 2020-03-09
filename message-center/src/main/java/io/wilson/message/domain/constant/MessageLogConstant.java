@@ -1,6 +1,8 @@
 package io.wilson.message.domain.constant;
 
 /**
+ * 维护MessageLog的相关常量(如不同消息的collection名)
+ *
  * @author Wilson
  * @since 2020/3/4
  **/
