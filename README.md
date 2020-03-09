@@ -1,6 +1,6 @@
 # 基于Spring Boot RocketMQ搭建的消息中心应用DEMO
 
-# 各组件主要作用如下：
+## 各组件主要作用如下：
 - Spring Cloud Config：消息配置(如topic、ConsumerGroup、ProducerGroup)中心。
 - Eureka：应用服务注册中心，负责项目中各服务的发现与提供调用。
 - MongoDB：由于消息的事务关系不强且Mongodb格式文档自由(json存储，随意增删字段)，所以使用Mongodb存储各个应用发送过来的消息(主要为Sms、Email等)，每次消费前通过RocketMQ的Message ID查询Mongo保证消息幂等性避免重复消费，消费成功后保存消息。

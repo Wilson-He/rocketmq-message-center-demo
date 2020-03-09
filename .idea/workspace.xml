@@ -4,14 +4,9 @@
     <bookmark url="jar://E:/.m2/repository/org/apache/rocketmq/rocketmq-client/4.5.2/rocketmq-client-4.5.2-sources.jar!/org/apache/rocketmq/client/consumer/listener/MessageListenerConcurrently.java" line="22" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="008da00a-392d-4fd6-94d7-f16bd7153ab9" name="Default Changelist" comment="">
+    <list default="true" id="008da00a-392d-4fd6-94d7-f16bd7153ab9" name="Default Changelist" comment="补充单元测试log">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/question-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,17 +46,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/message-center/src/test/java/io/wilson/message/SmsSendTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="540">
+              <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/question-app/src/main/java/io/wilson/question/controller/QuestionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="112">
+              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/MessageCenterApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,12 +82,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="320">
-                <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+              <first_editor relative-caret-position="280">
+                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -243,7 +247,6 @@
         <option value="$PROJECT_DIR$/question-app/src/main/java/io/wilson/question/controller/QuestionController.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/constant/MessageConstant.java" />
         <option value="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/SmsMessage.java" />
-        <option value="$PROJECT_DIR$/message-center/src/test/java/io/wilson/message/SmsSendTest.java" />
         <option value="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/listener/SmsMQStoreListener.java" />
         <option value="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/SmsMessageService.java" />
         <option value="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/domain/constant/MessageLogConstant.java" />
@@ -256,9 +259,10 @@
         <option value="$PROJECT_DIR$/config-server/src/main/java/io/wilson/config/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/config-server-properties/rocketmq-dev.properties" />
         <option value="$PROJECT_DIR$/question-app/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/message-center/src/test/java/io/wilson/message/SmsSendTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -338,21 +342,6 @@
               <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
               <item name="message-center" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="message-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="message-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -371,32 +360,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="question-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="question-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="question-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="question-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -576,11 +539,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MessageCenterApplication" />
         <item itemvalue="JUnit.SmsSendTest.sendSms" />
-        <item itemvalue="Spring Boot.QuestionApplication" />
+        <item itemvalue="Spring Boot.MessageCenterApplication" />
         <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.QuestionApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -622,7 +585,7 @@
       <workItem from="1583309325876" duration="4443000" />
       <workItem from="1583369858497" duration="18788000" />
       <workItem from="1583454641997" duration="20950000" />
-      <workItem from="1583713690130" duration="3985000" />
+      <workItem from="1583713690130" duration="4891000" />
     </task>
     <task id="LOCAL-00001" summary="补充gitignore">
       <created>1583397874207</created>
@@ -638,7 +601,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583719706484</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更改artifactId">
+      <created>1583719852688</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583719852688</updated>
+    </task>
+    <task id="LOCAL-00004" summary="补充单元测试log">
+      <created>1583720398720</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583720398720</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -660,9 +637,12 @@
     <history-entry file="SmsSendTest_sendSms - 2020.03.06 at 15h 13m 01s.xml">
       <configuration name="SmsSendTest.sendSms" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SmsSendTest_sendSms - 2020.03.09 at 10h 19m 47s.xml">
+      <configuration name="SmsSendTest.sendSms" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210478000" />
+    <option name="totallyTimeSpent" value="211384000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -677,7 +657,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4965157" visible="true" weight="0.26772615" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4965157" visible="true" weight="0.18826406" />
       <window_info id="Structure" order="1" sideWeight="0.5034843" side_tool="true" weight="0.23960881" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -686,8 +666,8 @@
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3275463" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987775" weight="0.41319445" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49938875" visible="true" weight="0.32407406" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4987775" visible="true" weight="0.41319445" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49938875" weight="0.32407406" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32794458" />
@@ -723,7 +703,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="补充gitignore" />
     <MESSAGE value="代码、设计优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="代码、设计优化" />
+    <MESSAGE value="更改artifactId" />
+    <MESSAGE value="补充单元测试log" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充单元测试log" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1028,16 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/MessageCenterApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/listener/SmsMessageListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-28">
@@ -1088,13 +1060,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/message-center/src/test/java/io/wilson/message/SmsSendTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server-properties/rocketmq-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1113,16 +1078,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="320">
-            <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1151,11 +1106,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/question-app/src/main/java/io/wilson/question/controller/QuestionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="112">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/MessageCenterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-center/src/test/java/io/wilson/message/SmsSendTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="280">
+            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
