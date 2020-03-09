@@ -4,32 +4,14 @@
     <bookmark url="jar://E:/.m2/repository/org/apache/rocketmq/rocketmq-client/4.5.2/rocketmq-client-4.5.2-sources.jar!/org/apache/rocketmq/client/consumer/listener/MessageListenerConcurrently.java" line="22" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="008da00a-392d-4fd6-94d7-f16bd7153ab9" name="Default Changelist" comment="补充gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="008da00a-392d-4fd6-94d7-f16bd7153ab9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/BaseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/BaseMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/SmsMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/SmsMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/constant/MessageConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/io/wilson/common/message/constant/MessageConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/BaseMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/BaseMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/SmsMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/SmsMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/constant/MessageConstant$System.class" beforeDir="false" afterPath="$PROJECT_DIR$/common/target/classes/io/wilson/common/message/constant/MessageConstant$System.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server-properties/rocketmq-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server-properties/rocketmq-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/io/wilson/config/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/io/wilson/config/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/domain/MessageLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/domain/MessageLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/domain/constant/MessageLogConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/domain/constant/MessageLogConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/listener/AbstractListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/listener/AbstractMQStoreListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/listener/SmsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/listener/SmsMessageListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/AbstractMessageService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/BaseMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/BaseMessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/SmsMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/SmsMessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/impl/SmsMessageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/service/impl/SmsMessageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/src/test/java/io/wilson/message/SmsSendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/src/test/java/io/wilson/message/SmsSendTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/target/classes/io/wilson/message/domain/MessageLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/target/classes/io/wilson/message/domain/MessageLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/target/classes/io/wilson/message/listener/SmsListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-center/target/classes/io/wilson/message/service/BaseMessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/target/classes/io/wilson/message/service/BaseMessageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question-app/src/main/java/io/wilson/question/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/question-app/src/main/java/io/wilson/question/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/question-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/question-app/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-center/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/message-center/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/question-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/question-app/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -75,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/question-app/src/main/java/io/wilson/question/controller/QuestionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="24" />
+            <state relative-caret-position="292">
+              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,19 +73,48 @@
         <entry file="file://$PROJECT_DIR$/question-app/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="140">
-                <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <first_editor relative-caret-position="320">
+                <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -139,8 +150,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bootstrap</find>
-      <find>pullRequ</find>
       <find>scheduledExecutorService</find>
       <find>pul</find>
       <find>Callback</find>
@@ -169,9 +178,12 @@
       <find>consume</find>
       <find>configserver</find>
       <find>config-server</find>
+      <find>rocketmq-mq-demo</find>
+      <find>rocket-mq-demo</find>
     </findStrings>
     <replaceStrings>
       <replace>PRODUCER</replace>
+      <replace>rocketmq-message-demo</replace>
     </replaceStrings>
     <dirStrings>
       <dir>E:\.m2\repository\org\apache\rocketmq\rocketmq-client\4.3.0\rocketmq-client-4.3.0.jar!\org\apache\rocketmq\client\impl</dir>
@@ -209,12 +221,10 @@
         <option value="$PROJECT_DIR$/common/src/main/java/io/wilson/common/constant/MessageConstant.java" />
         <option value="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/model/SmsMessageLog.java" />
         <option value="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/model/MessageLog.java" />
-        <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-app/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-app/src/main/java/io/wilson/eureka/EurekaApplication.java" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/message-center/src/main/resources/boostrap.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-app/pom.xml" />
         <option value="$PROJECT_DIR$/message-center/src/main/java/io/wilson/message/MessageApplication.java" />
         <option value="$PROJECT_DIR$/message-center/src/main/resources/bootstrap.yml" />
@@ -247,6 +257,8 @@
         <option value="$PROJECT_DIR$/config-server-properties/rocketmq-dev.properties" />
         <option value="$PROJECT_DIR$/question-app/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/config-server/pom.xml" />
       </list>
     </option>
   </component>
@@ -309,11 +321,6 @@
             <path>
               <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rocket-mq-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server-properties" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rocket-mq-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -615,7 +622,7 @@
       <workItem from="1583309325876" duration="4443000" />
       <workItem from="1583369858497" duration="18788000" />
       <workItem from="1583454641997" duration="20950000" />
-      <workItem from="1583713690130" duration="3592000" />
+      <workItem from="1583713690130" duration="3985000" />
     </task>
     <task id="LOCAL-00001" summary="补充gitignore">
       <created>1583397874207</created>
@@ -624,7 +631,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583397874207</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="代码、设计优化">
+      <created>1583719706484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583719706484</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -648,7 +662,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210085000" />
+    <option name="totallyTimeSpent" value="210478000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -708,7 +722,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="补充gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="补充gitignore" />
+    <MESSAGE value="代码、设计优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码、设计优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -745,21 +760,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/question-app/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.2.3.RELEASE/spring-boot-autoconfigure-2.2.3.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8194" column="34" selection-start-line="8194" selection-start-column="22" selection-end-line="8194" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/message-center/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
@@ -888,13 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -1102,16 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/question-app/src/main/java/io/wilson/question/controller/QuestionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-server-properties/rocketmq-dev.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -1129,17 +1112,50 @@
     <entry file="file://$PROJECT_DIR$/question-app/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="140">
-            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <first_editor relative-caret-position="320">
+            <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-server/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/question-app/src/main/java/io/wilson/question/controller/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
