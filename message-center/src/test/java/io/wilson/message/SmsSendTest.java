@@ -2,6 +2,8 @@ package io.wilson.message;
 
 import io.wilson.common.message.SmsMessage;
 import io.wilson.common.message.constant.MessageConstant;
+import lombok.extern.slf4j.Slf4j;
+import org.apache.rocketmq.client.producer.SendResult;
 import org.apache.rocketmq.spring.core.RocketMQTemplate;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,6 +20,7 @@ import javax.annotation.Resource;
  **/
 @SpringBootTest(classes = MessageCenterApplication.class)
 @RunWith(SpringJUnit4ClassRunner.class)
+@Slf4j
 public class SmsSendTest {
     @Resource
     private RocketMQTemplate rocketMQTemplate;
@@ -31,6 +34,7 @@ public class SmsSendTest {
                 .setMobile("173333222")
                 .setContent("测试短信消息")
                 .setSystem(MessageConstant.System.QUESTION);
-        rocketMQTemplate.send(smsTopic, MessageBuilder.withPayload(smsMessage).build());
+        SendResult sendResult = rocketMQTemplate.syncSend(smsTopic, MessageBuilder.withPayload(smsMessage).build());
+        log.info("send msg id: {}", sendResult.getMsgId());
     }
 }
